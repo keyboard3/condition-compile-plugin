@@ -1,0 +1,1 @@
+process.env.RUN_ENV == "development" ? require("./a.js") : require("./b.js");

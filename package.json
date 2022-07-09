@@ -1,0 +1,36 @@
+{
+  "name": "condition-compile-plugin",
+  "version": "1.0.2",
+  "main": "index.js",
+  "author": "keyboard3 <keyboard3@icloud.com>",
+  "description": "condition compile support require module not bundle",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "build-examples": "node examples/build-examples.js",
+    "puml": "npx puml generate flow.puml -o flow.png",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "condition-compile",
+    "condition-compile-plugin"
+  ],
+  "homepage": "https://github.com/keyboard3/condition-compile-plugin",
+  "repository": "https://github.com/keyboard3/condition-compile-plugin.git",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.20.0"
+  },
+  "devDependencies": {
+    "rimraf": "2.6.3",
+    "webpack": "5.24.3",
+    "webpack-cli": "4.5.0"
+  }
+}
