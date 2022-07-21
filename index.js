@@ -47,7 +47,7 @@ class ConditionCompilePlugin {
 }
 
 function isValidate(expression) {
-  return expression.type == "MemberExpression" && expression.object.property.name == "env";
+  return expression.type == "MemberExpression" && expression.object.property?.name == "env";
 }
 ConditionCompilePlugin.version = 1;
 module.exports = ConditionCompilePlugin;

@@ -1,6 +1,6 @@
 {
   "name": "condition-compile-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "keyboard3 <keyboard3@icloud.com>",
   "description": "condition compile support require module not bundle",

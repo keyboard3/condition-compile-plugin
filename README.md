@@ -13,12 +13,14 @@ yarn add -D condition-compile-plugin
 config
 
 ```js
+const ConditionCompilePlugin = require('condition-compile-plugin')
+
 new webpack.DefinePlugin({
   "process.env": {
     "RUN_ENV": JSON.stringify('development')
   }
 }),
-new ConditionCompileOptions(),
+new ConditionCompilePlugin(),
 ```
 
 use
